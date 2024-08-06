@@ -1,0 +1,130 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Baldur's Gate 3",
+      "foto": "/img/Baldurs-Gate-3.webp",
+      "descripcion": "Reúne a tu grupo y regresa a los Reinos Olvidados, enfrentando compañerismo, traición y el atractivo del poder. Resiste el parásito desollador de mentes o abraza la corrupción y conviértete en el mal supremo.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 2,
+      "nombre": "Biomutant",
+      "foto": "/img/Biomutant.webp",
+      "descripcion": "Biomutant es un juego de rol de fábula de Kung-Fu post-apocalíptico de mundo abierto, con un sistema de combate único estilo artes marciales que te permite mezclar acción cuerpo a cuerpo, disparos y habilidades mutantes.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 3,
+      "nombre": "Crysis Remastered",
+      "foto": "/img/Crysis-Remastered.webp",
+      "descripcion": "Una misión de rescate se convierte en una guerra contra invasores alienígenas en Corea del Norte. Con un nanotraje, los jugadores pueden volverse invisibles o aumentar su fuerza para enfrentar a los enemigos y destruir vehículos.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 4,
+      "nombre": "Dragon Ball Z: Kakarot",
+      "foto": "/img/DRAGON-BALL-Z-KAKAROT.webp",
+      "descripcion": "¡Revive la historia de Goku y los Guerreros Z en DRAGON BALL Z: KAKAROT! Además de batallas épicas, vive en el mundo de DRAGON BALL Z luchando, pescando, comiendo y entrenando con Goku, Gohan, Vegeta y otros.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 5,
+      "nombre": "Dying Light 2: Stay Human",
+      "foto": "/img/Dying-Light-2-Stay-Human.webp",
+      "descripcion": "El virus ganó, retrocediendo la civilización a la Edad Media. La Ciudad, uno de los últimos asentamientos humanos, está al borde del colapso. Usa tu agilidad y habilidades de combate para sobrevivir y remodelar el mundo con tus elecciones.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 6,
+      "nombre": "Forza Horizon 5",
+      "foto": "/img/Forza-Horizon-5.webp",
+      "descripcion": "¡Tu aventura definitiva en Horizon te espera! Explora los vibrantes y cambiantes paisajes del mundo abierto de México con acción de conducción ilimitada en cientos de los mejores autos del mundo.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 7,
+      "nombre": "Ghost of Tsushima - Director's Cut",
+      "foto": "/img/Ghost-of-Tsushima-Directors-Cut.webp",
+      "descripcion": "A finales del siglo XIII, el imperio mongol arrasó naciones enteras en su campaña para conquistar Oriente. La isla Tuhima es todo lo que se interpone entre el Japón continental y una enorme flota de invasión mongola liderada por el despiadado y astuto general Khotun Khan.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 8,
+      "nombre": "God of War",
+      "foto": "/img/God-of-War.webp",
+      "descripcion": "Kratos dejó atrás su venganza contra los dioses del Olimpo y ahora vive en el reino de dioses y monstruos nórdicos. En este mundo implacable, lucha para sobrevivir y enseñar a su hijo a hacer lo mismo.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 9,
+      "nombre": "Horizon Forbidden West Complete Edition",
+      "foto": "/img/Horizon-Forbidden-West-Complete-Edition.webp",
+      "descripcion": "Experimenta el épico Horizon Forbidden West en su totalidad con contenido adicional y la expansión Burning Shores incluida. El complemento Burning Shores contiene contenido adicional para la aventura de Aloy, incluidas nuevas historias, personajes y experiencias en una nueva área impresionante pero peligrosa.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 10,
+      "nombre": "Guardians of the Galaxy",
+      "foto": "/img/Marvels-Guardians-of-the-Galaxy.webp",
+      "descripcion": "Emprende un viaje salvaje por el cosmos con una nueva versión de Guardianes de la Galaxia de Marvel. En este juego de acción y aventuras, eres Star-Lord y conduces a los impredecibles Guardianes de una explosión de caos a la siguiente. Lo tienes. Probablemente.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 11,
+      "nombre": "Resident Evil 3",
+      "foto": "/img/RESIDENT-EVIL-3.webp",
+      "descripcion": "Jill Valentine es una de las últimas personas que quedan en Raccoon City en presenciar las atrocidades que cometió Umbrella. Para detenerla, Umbrella desata su arma secreta definitiva: ¡Némesis! También incluye Resident Evil Resistance, un nuevo juego multijugador online 1 contra 4 ambientado en el universo RE.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 12,
+      "nombre": "Saints Row Platinum Edition",
+      "foto": "/img/Saints-Row-Platinum-Edition.webp",
+      "descripcion": "Bienvenido a Santo Ileso, una vibrante ciudad ficticia en el suroeste de Estados Unidos. En un mundo plagado de crimen, un grupo de jóvenes amigos se embarcan en su propia aventura criminal, mientras llegan a la cima en su intento por convertirse en Self Made.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 13,
+      "nombre": "Hellblade 2",
+      "foto": "/img/Senuas-Saga-Hellblade-II.webp",
+      "descripcion": "Senua, la secuela del galardonado Hellblade: Senua's Sacrifice, regresa en un brutal viaje de supervivencia a través del mito y el tormento de la Islandia vikinga. Con la intención de salvar a aquellos que han sido víctimas de los horrores de la tiranía, Senua se enfrenta a una batalla para superar la oscuridad interior y exterior.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 14,
+      "nombre": "Sifu",
+      "foto": "/img/SIFU.webp",
+      "descripcion": "Sifu es el nuevo juego de Sloclap, el estudio independiente detrás de Absolver. Un juego de acción en tercera persona que presenta intensos combates cuerpo a cuerpo y te pone en control de un joven estudiante de Kung-Fu que emprende un camino de venganza.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 15,
+      "nombre": "The Ascent",
+      "foto": "/img/The-Ascent.webp",
+      "descripcion": "Ascent es un juego de rol de acción y disparos en solitario y cooperativo ambientado en un mundo ciberpunk. La megacorporación que te posee a ti y a todos, The Ascent Group, acaba de colapsar. ¿Podrás sobrevivir sin él?",
+      "precio": "60 usd"
+    },
+    {
+      "id": 16,
+      "nombre": "Tony Hawk Pro Skater 1-2",
+      "foto": "/img/Tony-Hawks-Pro-Skater-1-2.webp",
+      "descripcion": "Patina como el legendario Tony Hawk y el plantel profesional original, además de nuevos profesionales. Escuche canciones de la banda sonora que definió una era junto con música nueva. Realiza combos de trucos locos con el manejo icónico de la serie Tony Hawk's™ Pro Skater™.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 17,
+      "nombre": "Uncharted Legacy of Thieves Collection",
+      "foto": "/img/UNCHARTED-Legacy-of-Thieves-Collection.webp",
+      "descripcion": "Juega como Nathan Drake y Chloe Frazer en sus propias aventuras independientes mientras confrontan sus pasados y forjan sus propios legados. Este juego incluye las historias para un jugador aclamadas por la crítica de UNCHARTED 4: A Thief's End y UNCHARTED: The Lost Legacy.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 18,
+      "nombre": "Watch Dogs Legion",
+      "foto": "/img/Watch-Dogs-Legion.webp",
+      "descripcion": "Crea una resistencia a partir de prácticamente cualquier persona que veas mientras pirateas, te infiltras y luchas para recuperar un Londres del futuro cercano que se enfrenta a su ruina. Bienvenidos a la Resistencia.",
+      "precio": "60 usd"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 0.5px solid red; */
+}
+
+.card {
+  width: 220px;
+  max-width: 300px;
+  height: 400px;
+  background-color: orange;
+  overflow: hidden;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s; /* ! No puede ser all */
+  /* ----------------------------------------- */
+}
+.card:hover, .card:focus {
+  transform: scale(1.03) skew(0) rotate(2deg);
+  transform-origin: bottom;
+  box-shadow: 0px 7px 8px 0px rgba(0, 0, 0, 0.5);
+}
+.card__image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card:hover .card__image, .card:focus .card__image {
+  transform: scale(1.4) rotate(5deg);
+  transform-origin: center;
+}
+.card:nth-child(5n+1) {
+  background-image: linear-gradient(to top, #aaafad 0%, #60efff 100%);
+}
+.card:nth-child(5n+2) {
+  background-image: linear-gradient(to top, #696eff 0%, #f8accf 100%);
+}
+.card:nth-child(5n+3) {
+  background-image: linear-gradient(to top, #ff1b6b 0%, #34caff 100%);
+}
+.card:nth-child(5n+4) {
+  background-image: linear-gradient(to top, #ff930f 0%, #fff95b 100%);
+}
+.card:nth-child(5n+5) {
+  background-image: linear-gradient(to top, #ff0f7b 0%, #f89b29 100%);
+}
+.card__image-container {
+  height: 200px;
+  background-color: blue;
+  overflow: hidden;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 200px, 0 180px);
+          clip-path: polygon(0 0, 100% 0, 100% 200px, 0 180px); /* Estado inicial */
+}
+.card:hover .card__image-container, .card:focus .card__image-container {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 190px, 0 200px);
+          clip-path: polygon(0 0, 100% 0, 100% 190px, 0 200px); /* Estado final */
+}
+@media (max-width: 768px) {
+  .card { /* .card */
+    min-width: 400px;
+    max-width: 500px;
+    height: 200px;
+  }
+  .card__article { /* .card__article */
+    display: flex;
+  }
+  .card .card__image-container { /* .card .card__image-container */
+    width: 40%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%); /* Estado inicial */
+  }
+  .card:hover .card__image-container, .card:focus .card__image-container {
+    width: 40%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); /* Estado final */
+  }
+}
+
+/* -------------------------------------------------------- */
+/* HEADER */
+/* -------------------------------------------------------- */
+.main-header {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 768px) {
+  .main-header { /* .main-header */
+    flex-direction: column-reverse;
+  }
+}
+
+#menu {
+  display: none;
+}
+#menu:checked + .nav-bar {
+  display: block;
+}
+#menu:checked ~ .search-bar .menu-toogle .menu-toogle__label {
+  background-color: yellow;
+}
+
+/* -------------------------------------------------------- */
+/* NAVBAR */
+/* -------------------------------------------------------- */
+.nav-bar {
+  background-color: mediumaquamarine;
+}
+.nav-bar__nav-list { /* .nav-bar__nav-list */
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .nav-bar__nav-list {
+    flex-direction: column;
+  }
+}
+.nav-bar__nav-item {
+  text-align: center;
+  background-color: pink;
+}
+.nav-bar__nav-link {
+  display: block;
+  background-color: purple;
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .nav-bar { /* .nav-bar */
+    display: none;
+  }
+}
+
+/* -------------------------------------------------------- */
+/* SEARCH BAR */
+/* -------------------------------------------------------- */
+.search-bar {
+  background-color: olivedrab;
+  display: flex;
+  justify-content: space-around;
+}
+.search-bar__logo-container { /* .search-bar__logo-container */
+  width: 18.75rem;
+  height: 3.75rem;
+}
+.search-bar__form-container {
+  padding: 1rem;
+  background-color: gold;
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+}
+.search-bar__form-label {
+  background-color: greenyellow;
+}
+.search-bar__form-search {
+  background-color: deeppink;
+  width: 70%;
+}
+.search-bar__form-submit {
+  background-color: darkslategray;
+  color: white;
+}
+.search-bar__carrito-container {
+  flex: 0 0 3rem; /* shorthand (grow shrink basis */
+  background-color: goldenrod;
+}
+
+/* -------------------------------------------------------- */
+/* MENÚ TOOGLE */
+/* -------------------------------------------------------- */
+.menu-toogle {
+  display: none;
+  background-color: red;
+  flex: 0 0 3rem;
+  position: relative;
+  cursor: pointer;
+}
+.menu-toogle__label {
+  display: block;
+  background-color: black;
+  height: 100%;
+}
+.menu-toogle__top-bread, .menu-toogle__meat, .menu-toogle__bottom-bread {
+  display: block;
+  background-color: #333;
+  height: 0.2rem;
+  position: absolute;
+  left: 0.5rem;
+  right: 0.5rem;
+}
+.menu-toogle__top-bread {
+  top: 0.8rem;
+}
+.menu-toogle__meat {
+  top: 50%;
+  margin-top: -0.1rem;
+}
+.menu-toogle__bottom-bread {
+  bottom: 0.8rem;
+}
+@media (max-width: 768px) {
+  .menu-toogle { /* .menu-toogle */
+    display: block;
+  }
+}
+
+.section-cards {
+  background-color: #f1f2f3;
+  padding: 1rem;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Estructura 7 en 1.
+! base -> todos los estilos de inicio
+-> _reset.scss
+-> _typografhy.scss
+-> _variables.scss
+! components
+-> _buttons.scss
+-> _slider.scss
+-> _cards.scss
+! layout
+-> _header.scss
+-> _footer.scss
+-> _sidebar.scss
+! pages
+-> _home.scss
+-> _contacto.scss
+-> _nosotros.scss
+! themes
+-> _theme-dark.scss
+-> _theme-light.scss
+! utils
+-> _mixins.scss
+-> _functions.scss
+! vendors
+-> _bootstrap.scss
+-> _normalize.scss
+*//*# sourceMappingURL=main.css.map */

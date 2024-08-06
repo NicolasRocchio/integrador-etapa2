@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto Integrador - Contacto</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <input type="checkbox" id="menu" />
+
+      <nav class="nav-bar">
+        <ul class="nav-bar__nav-list">
+          <li class="nav-bar__nav-item">
+            <a href="/index.html" class="nav-bar__nav-link">Inicio</a>
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="/views/alta.html" class="nav-bar__nav-link">Alta</a>
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="/views/nosotros.html" class="nav-bar__nav-link"
+              >Nosotros</a
+            >
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="/views/contacto.html" class="nav-bar__nav-link"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- .nav-bar -->
+
+      <div class="search-bar">
+        <div class="search-bar__logo-container">
+          <img
+            class="search-bar__logo-img"
+            src="/img/logo-banner.png"
+            alt="Logo de Game Master"
+            title="Game Master"
+          />
+        </div>
+        <form action="#" class="search-bar__form-container">
+          <!-- <label for="busqueda" class="search-bar__form-label">Buscar</label> -->
+          <input type="search" class="search-bar__form-search" id="busqueda" />
+          <input type="submit" class="search-bar__form-submit" value="Buscar" />
+        </form>
+        <div class="search-bar__carrito-container">
+          <a href="/views/carrito.html"
+            ><img
+              class="search-bar__carrito-img"
+              src="/img/cart-shopping-solid.svg"
+              alt=""
+          /></a>
+        </div>
+        <div class="menu-toogle">
+          <label for="menu" class="menu-toogle__label">
+            <span class="menu-toogle__top-bread"></span>
+            <span class="menu-toogle__meat"></span>
+            <span class="menu-toogle__bottom-bread"></span>
+          </label>
+        </div>
+      </div>
+      <!-- .search-bar -->
+    </header>
+    <!-- main-header -->
+
+    <main>
+      <section class="title">
+        <h1>Contáctanos</h1>
+      </section>
+
+      <section class="contact-cards what-we-do">
+        <div class="services">
+          <div class="service">
+            <img class="svg" src="/img/phone-solid.svg" alt="" />
+            <h3>0800-123-4567</h3>
+            <p>
+              ¿Necesitas ayuda con tus videojuegos? Llama gratis al numero
+              brindado para asesoría personalizada
+            </p>
+            <a href="/index.html" class="button-grey">Aprende más</a>
+          </div>
+          <div class="service">
+            <img class="svg" src="/img/envelope-solid.svg" alt="" />
+            <h3>help@gamemaster.com</h3>
+            <p>
+              ¡Sumérgete en el juego perfecto! Escríbenos y desata todo el
+              potencial de tu experiencia de juego.
+            </p>
+            <a href="#" class="button-grey">Aprende más</a>
+          </div>
+          <div class="service">
+            <img class="svg-2" src="/img/location-dot-solid.svg" alt="" />
+            <h3>Servicio al Cliente de Primera Clase</h3>
+            <p>
+              Encuéntranos en nuestro local principal: Av. Gamer 123, San Miguel
+              de Tucuman. ¡Visítanos y déjate llevar por el mundo de los
+              videojuegos!
+            </p>
+            <a href="#" class="button-grey">Aprende más</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-form">
+        <h2>Contáctanos</h2>
+        <form>
+          <input type="email" placeholder="Email" />
+          <input type="tel" placeholder="Numero" />
+          <input type="text" placeholder="Nombre" />
+          <textarea placeholder="Texto" cols="30" rows="10"></textarea>
+          <button class="button-grey">Enviar</button>
+        </form>
+      </section>
+
+      <section class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d28483.67312626012!2d-65.21605641015626!3d-26.825345097763748!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1717885808381!5m2!1ses-419!2sar"
+          class="map__iframe"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+
+      <section class="newsletter">
+        <h2>Nuestro Newsletter</h2>
+        <form>
+          <input type="email" placeholder="Email" />
+          <button class="button-orange">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img class="footer-img" src="/img/logo.webp" alt="" />
+        </div>
+        <div class="footer-nav">
+          <h3>Navegación</h3>
+          <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/views/alta.html">Alta</a></li>
+            <li><a href="/views/carrito.html">Carrito</a></li>
+            <li><a href="/views/nosotros.html">Nosotros</a></li>
+            <li><a href="/views/contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Game Master Technology • All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
